@@ -1,0 +1,194 @@
+.container {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-image: url("../images/concrete-texture.png");
+    background-repeat: repeat-x repeat-y;
+    position: relative;
+    margin-top: 100px;
+    border-top: #ccc;
+    justify-content: space-around;
+    
+
+}
+
+.content {
+    width: 50%;
+    text-align: left;
+    align-content: center;
+    background: #fff;
+    margin: 50px;
+    padding: 20px;
+    color: #777;
+    border: 1px solid #ccc;    
+    
+}
+
+.portfolioContent {
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 1px solid black;
+    background: white;
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+
+    
+}
+
+.item1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #777;
+    float: left;
+    margin: 30px;
+    list-style: none;
+    padding: 10px;
+
+}
+
+.item1b {
+    width: 200px;
+    height: 50px;
+    background: #4aaaa5;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 5px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 0;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    /*position: relative;*/
+    justify-content: flex-end;
+    top: 20px;
+    color: #777;   
+    
+}
+
+.navigation li {
+    display: inline-block;
+
+}
+
+.navigation a {
+    color: #777;
+}
+.navigation a:hover {
+    color: #4aaaa5;
+
+
+}
+
+.profiles li {
+    float: right;
+    padding: 15px;
+
+}
+
+.mainHeader {
+    width: 20%;
+    height: 20%;
+    background: #4aaaa5;
+    color: white;
+    margin-left: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    padding: 25px;
+        position: relative;
+    top: 22px;
+}
+
+.mainHeader a {
+    text-decoration: none;
+    color: white;
+}
+
+.subHeader {
+    background: #fff;
+    color: #4aaaa5;
+    padding: 5px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-bottom: 1px solid #777;
+}
+
+.subHeader2 {
+    background: #fff;
+    color: #4aaaa5;
+    padding: 5px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: -10px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-bottom: 1px solid #777;
+}
+
+.profiles {
+    float: right;
+    position: relative;
+    visibility: visible;
+    width: initial;
+    height: 20%;
+    background: #fff;
+    color: #777;
+    padding: 10px;
+    /*top: -100px;*/
+    /*justify-content: flex-end;*/
+    border: 1px solid #ccc;
+    top: 50px;
+}
+
+.footer {
+    background: darkgray;
+    border-top: 7px solid #1abc9c;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2%;
+    color: #777;
+    text-align: center;
+}
+
+.contactForm {
+    float: left;
+    text-align: left;
+}
+
+.wrap {
+float: left;
+margin: 10px; 
+}
+
+@media screen and (max-width: 980px) {
+
+    
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    .mainHeader {
+        position: static;
+    }
+
+}
