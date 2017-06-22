@@ -79,7 +79,7 @@ ul {
     top: 20px;
     color: #777;
     display: flex;
-    flex-direction: row;f   
+    flex-direction: row;   
     
 }
 
@@ -211,6 +211,20 @@ margin: 10px;
 
     .mainHeader {
         width: 25%;
+    }
+
+    .portfolioContent {
+        width: 88%;
+
+
+    }
+
+    .navigation li {
+        margin: 10px;
+    }
+
+    .contactForm {
+        margin-bottom: 10px;
     }
 
 
