@@ -85,6 +85,7 @@ ul {
 
 .navigation li {
     list-style: none;
+    padding: 10px;
 
 
 }
@@ -145,7 +146,7 @@ ul {
 }
 
 .profiles {
-    margin: 10px;
+    
     visibility: visible;
     width: initial;
     height: 20%;
@@ -156,6 +157,7 @@ ul {
     /*justify-content: flex-end;*/
     border: 1px solid #ccc;
     flex-direction: row;
+    margin-left: 100px;
 }
 
 .flexParagraph {
@@ -183,9 +185,28 @@ float: left;
 margin: 10px; 
 }
 
-@media (max-width: 640px) {
 
-}
+
+
+
+
+@media (max-width: 985px) {
+
+       input {
+        width: 85%;
+    }
+
+    textarea {
+        width: 85%;
+    }
+
+    .profiles {
+        margin: 10px;
+        margin-left: 55px;
+    }
+
+    
+    
 
 @media (max-width: 768px) {
     .container {
@@ -204,13 +225,77 @@ margin: 10px;
 
     .profiles ul {
 
-        margin-right: 169px;
+        margin-right: -15px;
+        flex-flow: row nowrap;
 
         
     }
 
     .mainHeader {
-        width: 25%;
+        width: 88%;
+    }
+
+    .portfolioContent {
+        width: 88%;
+
+
+    }
+
+  
+
+    .navigation li {
+        margin: 29px;
+    }
+
+    .contactForm {
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    textarea {
+        width: 85%;
+    }
+
+
+
+@media (max-width: 640px) {
+        .container {
+        display: flex;
+        flex-flow: column;
+    }
+    .content {
+        width: 88%;
+        margin: auto;
+    }
+
+    .profiles {
+        margin: auto;
+        width: 88%;
+    }
+
+    .profiles ul {
+
+        align-content: flex-end;
+
+        
+    }
+
+    .navigation ul {
+        margin-right: -15px;
+    }
+
+    .mainHeader {
+        width: 100%;
+        display: flex;
+    }
+
+    .navigation {
+       display: flex;
+       flex-flow: row wrap;
+
     }
 
     .portfolioContent {
@@ -220,17 +305,20 @@ margin: 10px;
     }
 
     .navigation li {
-        margin: 10px;
+        margin: 1px;
     }
 
     .contactForm {
         margin-bottom: 10px;
     }
 
+       input {
+        width: 85%;
+    }
 
-}
+    textarea {
+        width: 85%;
+    }
 
-@media (max-width: 980px) {
 
 
-}
